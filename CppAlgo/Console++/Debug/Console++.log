@@ -1,0 +1,4 @@
+﻿  Console++.cpp
+C:\Users\aljun\source\repos\Console++\Console++\Console++.cpp(41,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\aljun\source\repos\Console++\Console++\Console++.cpp(72,23): warning C4018: '<': signed/unsigned mismatch
+  Console++.vcxproj -> C:\Users\aljun\source\repos\Console++\Debug\Console++.exe
