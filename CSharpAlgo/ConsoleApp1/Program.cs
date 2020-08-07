@@ -24,28 +24,18 @@ namespace ConsoleApp1
             //    }
             //    Console.WriteLine();                
             //}
-
-            //Console.WriteLine(evenDigitsOnly(1000));
-
-            //regexPlay();
-            Console.WriteLine(variableName("_Aas_23"));
+            str.First(x => x == nameof(String));
+            
 
             Console.ReadLine();
         }
 
         public static bool isMAC48Address(string inputString)
         {
-            var alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";            
+            var alphabets = "ABCDEF1234567890";            
             var alpDict = new Dictionary<char, char>();
             foreach(var alp in alphabets){
                 alpDict.Add(alp, alp);
-            }
-
-            var numDict = new Dictionary<char, char>();
-            var numbers = "1234567890";
-            foreach (var num in numbers)
-            {
-                numDict.Add(num, num);
             }
 
             var tokens = inputString.Split('-');
@@ -61,13 +51,10 @@ namespace ConsoleApp1
                     return false;
                 }
 
-                if (alpDict.ContainsKey(token[0]))
+                if (!alpDict.ContainsKey(token[0]) ||  !alpDict.ContainsKey(token[1]) )
                 {
-                    //if (!alpDict.ContainsKey(token[1]){
-                    //    return false;
-                    //}
-                }
-                //else if (alpDict.ContainsKey)
+                    return false;
+                } 
             }
 
             return true;

@@ -109,4 +109,58 @@ function buildPalindrome(st) {
     return newSt;
 }
 
-alert(isPalindrome("abccba"));
+function isMAC48Address(inputString) {
+    arr = inputString.split("-");
+    result = true;
+    if(arr.length != 6){
+        return false;
+    }
+
+    strDict = "ABCDEF1234567890";
+
+    arr.forEach(s => {   
+        fir = strDict.includes(s[0]);
+        sec = strDict.includes(s[1])
+        if(!fir || !sec){
+            result = false;
+        }
+    });
+    
+    return result;
+}
+
+function isDigit(symbol) {
+    return symbol.isDigit();
+}
+
+function lineEncoding(s) {
+    //iterate thru string
+    //once new char found, place prev chars in arr
+    tokens = [];
+    temp = s[0];
+    for(let i = 1; i < s.length; i++){
+        if(temp[0] == s[i]){
+            temp = temp.concat(s[i]);
+        }
+        else{
+            tokens.push(temp);
+            temp = s[i];
+        }
+    }
+
+    tokens.push(temp);
+    newStr = "";
+    tokens.forEach(token => {
+        length = token.length == 1 ? "" : token.length;
+        newStr = newStr.concat(length + token[0])
+    });
+
+    return newStr;
+}
+
+function chessKnight(cell) {
+
+}
+
+
+alert(lineEncoding("abbcc"));

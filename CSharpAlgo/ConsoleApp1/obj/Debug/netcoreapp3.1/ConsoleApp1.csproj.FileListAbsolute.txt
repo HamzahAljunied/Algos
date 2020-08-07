@@ -11,3 +11,16 @@ C:\Users\aljun\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Cons
 C:\Users\aljun\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\aljun\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\aljun\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\MainRepo\Algos\CSharpAlgo\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
