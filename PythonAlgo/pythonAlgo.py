@@ -99,5 +99,56 @@ def isBeautifulString(inputString):
     
     return True
 
+def chessKnight(cell):
+    r = 0
+    c = [ord(cell[0])-96,int(cell[1])]
+    
+    m = [[1,2],[2,1],[1,-2],[-2,1],[-1,2],[2,-1],[-1,-2],[-2,-1]]
+    
+    for i in m:
+        if 0<c[0]+i[0]<9 and 0<c[1]+i[1]<9:
+            r +=1
+    return r
 
-print(isBeautifulString("bbbaacdafe"))
+def deleteDigit(n):
+    numInStr = str(n)
+    size = len(numInStr)        
+    numList = []
+    for num in numInStr:
+        numList.append(num)
+
+    temp = numList.copy()
+    max = 0
+    for index in range(size):
+        del temp[index]
+        newNum = int(''.join([str(elem) for elem in temp]))
+        if newNum > max:
+            max = newNum
+        temp = numList.copy()
+        
+    return max
+
+def longestWord(text):
+    #loop thru str
+    #check if char.toLower is between 97 and 122
+    #add char to tempList
+    #if char.toLower is not between, compare tempList with currLong for a swap
+    tempList = []
+    currLong = [] 
+
+    for char in text:
+        if ord(char.lower()) >= 97 and ord(char.lower()) <= 122:
+            tempList.append(char)
+        else:
+            if len(tempList) > len(currLong):
+                currLong = tempList.copy()
+            tempList.clear()
+
+    if len(tempList) > len(currLong):
+        currLong = tempList.copy()
+
+    return ''.join([str(elem) for elem in currLong])
+
+
+
+print(longestWord("Ready, steady, go!"))
